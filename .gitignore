@@ -1,0 +1,21 @@
+# Obsidian - UI / cache
+/.obsidian/workspace
+/.obsidian/workspace.json
+/.obsidian/cache/
+
+# Obsidian - Plugin secrets
+/.obsidian/plugins/*/data.json
+
+# Secrets
+/**/.env
+.env
+.env.*
+!.env.example
+
+# Claude
+/.claude/settings.local.json
+/.claude/scheduled_tasks.lock
+/.claude/worktrees/
+
+# OS
+.DS_Store
