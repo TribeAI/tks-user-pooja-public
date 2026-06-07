@@ -7,12 +7,12 @@ This is a **source** (also called a **brain**) within the `workspace-pooja` Obsi
 ## Workspace Context
 
 ```
-workspace-pooja/
-  .obsidian/                 Vault config (workspace-level)
-  @user-pooja/               This brain (Pooja's personal knowledge)
-  @user-nick-public/         Nick's public brain
-  tks-team-100x/             100X team brain (project deliverables)
-  @engagement-cushman/       Cushman engagement brain
+workspace-pooja/                        # The Obsidian vault
+  .obsidian/                            # Vault config (workspace-level)
+  @user-pooja-public/                   # This brain (github: TribeAI/tks-user-pooja-public)
+  @user-nick-public/                    # Nick's public brain (github: TribeAI/tks-user-nick-public)
+  tks-team-100x/                        # 100X team brain — project deliverables (github: TribeAI/tks-team-100x)
+  @engagement-cushman/                  # Cushman & Wakefield engagement brain
 ```
 
 ---
@@ -20,7 +20,7 @@ workspace-pooja/
 ## Brain Layout
 
 ```
-@user-pooja/
+@user-pooja-public/
   README.md          Overview
   CLAUDE.md          Claude Code pointer to AGENTS.md
   AGENTS.md          Agent guidance hub
